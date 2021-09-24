@@ -14,7 +14,7 @@ and "/tmp/data.json" the destination file
   mapr importJSON -src file:///tmp/data.json -dst /mapr/cluster.name/user/mapr/dummydata/tableName
 ```
 
-  To test MaprDB secondary index performance use steps:
+ (Optional) To test MaprDB secondary index performance use steps:
 ```
   sudo yum install mapr-gateway
 
