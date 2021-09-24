@@ -1,8 +1,10 @@
 To build the data generator use:
 `mnv package`
+
 To run the generator use:
 `java -jar dataGen-BETA-jar-with-dependencies.jar 1000 "/tmp/data.json"`
-with arguments
+
+where arguments
 1000 is number of output documents(rows) to generate
 and "/tmp/data.json" the destination file
 
